@@ -1,0 +1,62 @@
+import Image from "next/image";
+import Link from "next/link";
+import styles from "@/styles/hero.module.css";
+import googleReviewLogo from "@/assets/img/google-review-logo.svg";
+import knopklokReviewLogo from "@/assets/img/knipklok-review-logo.png";
+import ster from "@/assets/icons/goudenster.svg";
+import afspraakico from "@/assets/icons/afspraak-ico.svg";
+
+function Hero() {
+  return (
+    <div className={styles.hero}>
+      <div>
+
+        <div>
+            <section>
+                <h1>Welkom bij Kapper Dede</h1>
+                <p>Kapper Dede is al sinds 2003 dé specialist in herenknipbeurten in Krommenie en omstreken. Of je nu komt voor een strakke overloop fade of een klassiek kapsel, wij zorgen ervoor dat je er altijd scherp en fris uitziet. Maak je afspraak en kom langs!</p>
+
+                <div>
+                    <Link href="https://knipklok.nl/kapperszaak/kapperdede#testimonial" target="_blank">
+                        <Image src={knopklokReviewLogo} alt="Knipklok Logo"/>
+                        <span>
+                            <p>4.8/5.0</p>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                        </span>
+                    </Link>
+
+
+                    <Link href="https://g.co/kgs/kYnBMcg" target="_blank">
+                        <Image src={googleReviewLogo} alt="Google Logo"/>
+                        <span>
+                            <p>4.7/5.0</p>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                            <Image src={ster} alt="Gouden ster"/>
+                        </span>
+                    </Link>
+                </div>
+
+            </section>
+
+            <section>
+                <h2>Hoe kunnen wij helpen?</h2>
+                <ul>
+                    <li><Link href="https://knipklok.nl/kapperszaak/kapperdede/afspraak" target="_blank"><Image src={afspraakico} alt="Klikkende pijl"/>Maak afspraak</Link></li>
+                    <li><Link href="/prijzen">Prijzen</Link></li>
+                </ul>
+            </section>
+        </div>
+       
+      </div>
+    </div>
+  );
+}
+
+export default Hero;
