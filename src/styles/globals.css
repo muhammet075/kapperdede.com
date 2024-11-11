@@ -4,6 +4,7 @@
 :root {
   --dedeKleur1: #ffb900;
   --dedeKleur2: #956c00;
+  --dedeKleur3: #000;
 }
 
 * {
@@ -21,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4{
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 main{

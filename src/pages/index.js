@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import Hero from "@/components/hero";
+import Instagram from "@/components/instagram";
+import Winkel from "@/components/winkel";
+import Reviews from "@/components/reviews";
 
 export default function Home() {
   useEffect(() => {
@@ -17,6 +20,9 @@ export default function Home() {
           <meta property="og:title" content=""/>
       </Head>
       <Hero/>
+      <Instagram/>
+      <Winkel/>
+      <Reviews/>
     </>
   );
 }
