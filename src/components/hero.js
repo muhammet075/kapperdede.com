@@ -48,7 +48,7 @@ function Hero() {
             <section>
                 <h2>Hoe kunnen wij helpen?</h2>
                 <ul>
-                    <li><Link href="https://knipklok.nl/kapperszaak/kapperdede/afspraak" target="_blank"><Image src={afspraakico} alt="Klikkende pijl"/>Maak afspraak</Link></li>
+                    <li><Link href="https://knipklok.nl/kapperszaak/kapperdede/afspraak" target="_blank"><Image src={afspraakico} alt="Klikkende pijlx"/>Maak afspraak</Link></li>
                     <li><Link href="/prijzen">Prijzen</Link></li>
                 </ul>
             </section>

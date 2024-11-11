@@ -40,13 +40,13 @@
 
 .hero > div > div > section:nth-of-type(1) > h1{
     font-size: 38px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 50px;    
 }
 
 .hero > div > div > section:nth-of-type(1) > p{
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     margin-bottom: 25px;
 }
@@ -186,6 +186,7 @@
 
 @media only screen and (max-width: 770px) {
     .hero{
+        background-position: 0% 0%;
         height: 800px;
     }
 
