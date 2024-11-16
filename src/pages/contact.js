@@ -1,10 +1,14 @@
 import { useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Head from "next/head";
 import Pagehero from "@/components/pagehero";
 import styles from "@/styles/contact.module.css";
 import emailjs from "@emailjs/browser";
 import checkIco from "@/assets/icons/greencheck.svg";
+import Instagram from "@/assets/icons/instagram2.svg";
+import Facebook from "@/assets/icons/facebook.svg";
+import WhatsApp from "@/assets/icons/whatsapp.svg";
 
 export default function Contact() {
   useEffect(() => {
@@ -125,6 +129,13 @@ export default function Contact() {
               <li><b>Telefoon:</b> 06 48 03 33 74</li>
               <li><b>KVK:</b> 72874511</li>
               <li><b>Adres:</b> Neptunuslaan 2A<br/> 1562XL Krommenie</li>
+              <li>
+                <ul>
+                  <li><Link href="https://www.instagram.com/kapperdede/" target="_blank"><Image src={Instagram} alt="Instagram Logo"/></Link></li>
+                  <li><Link href="https://www.facebook.com/kapperdede/?locale=nl_NL" target="_blank"><Image src={Facebook} alt="Facebook Logo"/></Link></li>
+                  <li><Link href="https://api.whatsapp.com/send/?phone=31628850078" target="_blank"><Image src={WhatsApp} alt="WhatsApp Logo"/></Link></li>
+                </ul>
+              </li>
             </ul>
           </section>
 

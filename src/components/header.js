@@ -59,10 +59,10 @@ function Header() {
                 <Link href="/"><Image src={logo} alt="Logo van Kapper Dede"/></Link>
                 <nav className="hamburgercontainer displaynonemobile">
                     <ul>
-                        <li><Link href="/">Home</Link></li>
-                        <li><Link href="/diensten">Diensten</Link></li>
-                        <li><Link href="/prijzen">Prijzen</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <li><Link href="/" onClick={closeHamburger}>Home</Link></li>
+                        <li><Link href="/diensten" onClick={closeHamburger}>Diensten</Link></li>
+                        <li><Link href="/prijzen" onClick={closeHamburger}>Prijzen</Link></li>
+                        <li><Link href="/contact" onClick={closeHamburger}>Contact</Link></li>
                         <li><Link href="https://knipklok.nl/kapperszaak/kapperdede/afspraak" target="_blank">Afspraak</Link></li>
                     </ul>
                     <div onClick={closeHamburger}>

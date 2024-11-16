@@ -38,9 +38,10 @@
 }
 
 .hero > div > div > section:nth-of-type(1) > h1{
-    font-size: 38px;
-    font-weight: 600;
+    font-size: 43px;
+    font-weight: 400;
     line-height: 50px;    
+    margin-bottom: 10px;
 }
 
 .hero > div > div > section:nth-of-type(1) > p{
@@ -201,7 +202,9 @@
     }
 
     .hero > div > div > section:nth-of-type(1) > h1{
-        font-size: 27px;
+        font-size: 43px;
+        font-weight: 400;
+        margin-bottom: 15px;
     }
 
     .hero > div > div > section:nth-of-type(1) > p{
