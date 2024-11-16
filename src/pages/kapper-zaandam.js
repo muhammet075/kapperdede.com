@@ -12,12 +12,12 @@ export default function Kapperzaandam() {
   return (
     <>
       <Head>
-        <title>Kapper Zaandam - Herenkapsels van Topkwaliteit</title>
+        <title>Kapper Zaandam | Kapper Dede</title>
         <meta name="description" content="Op zoek naar de beste kapper in Zaandam? Kapper Dede in Krommenie biedt hoogwaardige herenkapsels: van fade tot klassieke snit. Boek je afspraak vandaag nog!" />
         <meta name="og:description" content="Op zoek naar de beste kapper in Zaandam? Kapper Dede in Krommenie biedt hoogwaardige herenkapsels: van fade tot klassieke snit. Boek je afspraak vandaag nog!" />
         <meta name="keywords" content="kapper Zaandam, herenkapsels, fade, overloop, opscheer, kapsalon Zaandam, strakke snit, baard trimmen" />
-        <meta property="og:url" content="https://www.kapperdede.nl" />
-        <meta property="og:title" content="Kapper Zaandam" />
+        <meta property="og:url" content="https://www.kapperdede.com/kapper-zaandam" />
+        <meta property="og:title" content="Kapper Zaandam | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Kapper Zaandam" />

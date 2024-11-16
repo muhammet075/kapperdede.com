@@ -12,12 +12,12 @@ export default function Kapperzaandijk() {
   return (
     <>
       <Head>
-        <title>Kapper Zaandijk - Herenkapsels en Meer</title>
+        <title>Kapper Zaandijk | Kapper Dede</title>
         <meta name="description" content="Kapper Dede is de expert in herenkapsels voor Zaandijk en omstreken. Van strakke fades tot klassieke kapsels, wij zorgen voor de perfecte snit." />
         <meta name="og:description" content="Kapper Dede is de expert in herenkapsels voor Zaandijk en omstreken. Van strakke fades tot klassieke kapsels, wij zorgen voor de perfecte snit." />
         <meta name="keywords" content="kapper Zaandijk, herenkapsels, fade, overloop, opscheer, kapsalon Zaandijk, strakke snit, knippen, baard trimmen, herenkapper Zaandijk" />
-        <meta property="og:url" content="https://www.kapperdede.nl" />
-        <meta property="og:title" content="Kapper Zaandijk" />
+        <meta property="og:url" content="https://www.kapperdede.com/kapper-zaandijk" />
+        <meta property="og:title" content="Kapper Zaandijk | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Kapper Zaandijk" />

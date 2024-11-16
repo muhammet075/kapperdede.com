@@ -109,12 +109,12 @@ export default function Contact() {
   return (
     <>
       <Head>
-          <title>Contact</title>
-          <meta name="description" content=""/>
-          <meta name="og:description" content=""/>
-          <meta name="keywords" content=""/>
-          <meta property="og:url" content=""/>
-          <meta property="og:title" content=""/>
+          <title>Contact | Kapper Dede</title>
+          <meta name="description" content="Neem contact op met Kapper Dede voor afspraken, vragen of opmerkingen." />
+          <meta name="og:description" content="Neem contact op met Kapper Dede voor vragen, opmerkingen of ondersteuning. Wij staan klaar om je te helpen." />
+          <meta name="keywords" content="contact, Kapper Dede, afspraak, klantenservice, vragen, opmerkingen" />
+          <meta property="og:url" content="https://www.kapperdede.com/contact" />
+          <meta property="og:title" content="Contact | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Contact"/>

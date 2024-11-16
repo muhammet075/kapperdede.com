@@ -13,12 +13,12 @@ export default function Diensten() {
   return (
     <>
       <Head>
-          <title>Diensten</title>
-          <meta name="description" content=""/>
-          <meta name="og:description" content=""/>
-          <meta name="keywords" content=""/>
-          <meta property="og:url" content=""/>
-          <meta property="og:title" content=""/>
+          <title>Diensten | Kapper Dede</title>
+          <meta name="description" content="Ontdek de diensten van Kapper Dede, van knippen tot styling en haarbehandelingen. Alles voor jouw haarbehoeften." />
+          <meta name="og:description" content="Bekijk de verschillende diensten die Kapper Dede aanbiedt, van knippen en kleuren tot styling en haarbehandelingen." />
+          <meta name="keywords" content="diensten, Kapper Dede, knippen, kleuren, haarstyling, haarbehandelingen, kapsalon" />
+          <meta property="og:url" content="https://www.kapperdede.com/diensten" />
+          <meta property="og:title" content="Diensten | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Diensten"/>

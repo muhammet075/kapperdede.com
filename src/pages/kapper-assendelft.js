@@ -12,12 +12,12 @@ export default function Kapperassendelft() {
   return (
     <>
       <Head>
-        <title>Kapper Assendelft - Herenkapsels van Kwaliteit</title>
+        <title>Kapper Assendelft | Kapper Dede</title>
         <meta name="description" content="Op zoek naar de beste kapper in Assendelft? Kapper Dede in Krommenie biedt hoogwaardige herenkapsels, van een strakke fade tot een klassieke snit. Boek nu!" />
         <meta name="og:description" content="Op zoek naar de beste kapper in Assendelft? Kapper Dede in Krommenie biedt hoogwaardige herenkapsels, van een strakke fade tot een klassieke snit. Boek nu!" />
         <meta name="keywords" content="kapper Assendelft, herenkapsels, strakke fade, klassieke snit, opscheer, baard trimmen, kapsalon Krommenie" />
-        <meta property="og:url" content="https://www.kapperdede.nl" />
-        <meta property="og:title" content="Kapper Assendelft" />
+        <meta property="og:url" content="https://www.kapperdede.com/kapper-assendelft" />
+        <meta property="og:title" content="Kapper Assendelft | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Kapper Assendelft"/>

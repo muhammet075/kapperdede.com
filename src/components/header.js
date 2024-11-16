@@ -6,10 +6,20 @@ import logo from "@/assets/logo/kapper-dede-logo.png";
 import ster from "@/assets/icons/goudenster.svg";
 import hamburger from "@/assets/icons/hamburger.svg";
 import close from "@/assets/icons/close.svg";
+import Instagram from "@/assets/icons/instagram2.svg";
+import Facebook from "@/assets/icons/facebook.svg";
 
 function Header() {
 
     useEffect(() => {
+        function checkScroll() {
+            if (window.scrollY >= 200) {
+                document.querySelector("header").classList.add("smallheader");
+            } else{
+                document.querySelector("header").classList.remove("smallheader");
+            }
+        }
+        window.addEventListener("scroll", checkScroll);
     }, []);
 
     function openHamburger(){
@@ -28,20 +38,29 @@ function Header() {
         let hamburgerContainer = document.querySelector(".hamburgercontainer");
         let hamburgerMenu = document.querySelector(".hamburgercontainer ul");
 
-
         hamburgerMenu.classList.remove("openhamburger");
         hamburgerMenu.classList.add("closehamburger");
 
         setTimeout(() => {
             hamburgerContainer.classList.add("displaynonemobile");
         }, 300);
-   
     }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     return(      
-        <header className={styles.header}>  
+        <header className={styles.header} id="kapperdedeheader">  
             <div>
                 <div>
                     <Link href="https://g.co/kgs/kYnBMcg" target="_blank">
@@ -52,6 +71,11 @@ function Header() {
                         <Image src={ster} alt="Gouden ster"/>
                         <Image src={ster} alt="Gouden ster"/>
                     </Link>
+
+                    <ul>
+                        <li><Link href="https://www.instagram.com/kapperdede/" target="_blank"><Image src={Instagram} alt="Instagram logo"/></Link></li>
+                        <li><Link href="https://www.facebook.com/kapperdede/" target="_blank"><Image src={Facebook} alt="Facebook logo"/></Link></li>
+                    </ul>
                 </div>
             </div>
             <div>

@@ -10,12 +10,12 @@ export default function Prijzen() {
   return (
     <>
       <Head>
-          <title>Prijzen</title>
-          <meta name="description" content=""/>
-          <meta name="og:description" content=""/>
-          <meta name="keywords" content=""/>
-          <meta property="og:url" content=""/>
-          <meta property="og:title" content=""/>
+          <title>Prijzen | Kapper Dede</title>
+          <meta name="description" content="Bekijk de prijzen van onze diensten bij Kapper Dede. Van knippen tot kleuren, ontdek onze betaalbare tarieven voor haarverzorging." />
+          <meta name="og:description" content="Ontdek de prijzen voor de verschillende haarbehandelingen bij Kapper Dede. Van knippen en kleuren tot styling, alles wat je moet weten over onze tarieven." />
+          <meta name="keywords" content="prijzen, Kapper Dede, tarieven, knippen, kleuren, haarstyling, kapsalon, haarbehandelingen" />
+          <meta property="og:url" content="https://www.kapperdede.com/prijzen" />
+          <meta property="og:title" content="Prijzen | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Prijzen"/>

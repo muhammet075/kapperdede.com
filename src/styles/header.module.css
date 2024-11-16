@@ -18,7 +18,30 @@
     margin: 0 auto;
     padding: 5px 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row-reverse;
+}
+
+.header > div:nth-of-type(1) > div > ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.header > div:nth-of-type(1) > div > ul > li,
+.header > div:nth-of-type(1) > div > ul > li > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header > div:nth-of-type(1) > div > ul > li > a > img{
+    width: 15px;
+    height: auto;
 }
 
 .header > div:nth-of-type(1) > div > a:nth-of-type(1){

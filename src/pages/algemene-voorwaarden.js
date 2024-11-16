@@ -10,12 +10,12 @@ export default function Algemenevoorwaarden() {
   return (
     <>
       <Head>
-          <title>Kapper Dede - Algemene Voorwaarden</title>
+          <title>Algemene Voorwaarden | Kapper Dede</title>
           <meta name="description" content="Algemene voorwaarden van Kapper Dede. Lees meer over onze voorwaarden voor diensten, betalingen, aansprakelijkheid en meer."/>
           <meta name="og:description" content="Algemene voorwaarden van Kapper Dede. Lees meer over onze voorwaarden voor diensten, betalingen, aansprakelijkheid en meer."/>
           <meta name="keywords" content="algemene voorwaarden, Kapper Dede, diensten, betalingen, aansprakelijkheid"/>
           <meta property="og:url" content="https://www.kapperdede.com/algemene-voorwaarden"/>
-          <meta property="og:title" content="Kapper Dede - Algemene Voorwaarden"/>
+          <meta property="og:title" content="Algemene Voorwaarden | Kapper Dede"/>
       </Head>
 
       <Pagehero pagetitle="Algemene Voorwaarden"/>

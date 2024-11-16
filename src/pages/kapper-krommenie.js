@@ -12,12 +12,12 @@ export default function Kapperkrommenie() {
   return (
     <>
       <Head>
-        <title>Kapper Krommenie</title>
+        <title>Kapper Krommenie | Kapper Dede</title>
         <meta name="description" content="Kapper Dede is dé specialist in herenknipbeurten in Krommenie en omstreken. Van strakke overloop fades tot klassieke kapsels, wij zorgen voor de perfecte snit." />
         <meta name="og:description" content="Kapper Dede is dé specialist in herenknipbeurten in Krommenie en omstreken. Van strakke overloop fades tot klassieke kapsels, wij zorgen voor de perfecte snit." />
         <meta name="keywords" content="kapper Krommenie, herenkapsels, overloop, fade, opscheer, kapsalon Krommenie, strakke snit, knippen, baard trimmen, herenkapper Krommenie" />
-        <meta property="og:url" content="https://www.kapperdede.nl" />
-        <meta property="og:title" content="Kapper Krommenie" />
+        <meta property="og:url" content="https://www.kapperdede.com/kapper-krommenie" />
+        <meta property="og:title" content="Kapper Krommenie | Kapper Dede" />
       </Head>
 
       <Pagehero pagetitle="Kapper Krommenie"/>

@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <>
       <Head>
-          <title>Home</title>
-          <meta name="description" content=""/>
-          <meta name="og:description" content=""/>
-          <meta name="keywords" content=""/>
-          <meta property="og:url" content=""/>
-          <meta property="og:title" content=""/>
+          <title>Kapper Dede</title>
+          <meta name="description" content="Welkom op de website van Kapper Dede. Bekijk onze diensten en maak direct een afspraak voor een frisse look!" />
+          <meta name="og:description" content="Welkom op de website van Kapper Dede. Bekijk onze diensten en maak direct een afspraak voor een frisse look!" />
+          <meta name="keywords" content="kapper, Kapper Dede, haar, styling, knippen, overloop, fade, opscheer, knipklok, wax, kapsalon, afspraak maken" />
+          <meta property="og:url" content="https://www.kapperdede.com" />
+          <meta property="og:title" content="Kapper Dede" />
       </Head>
       <Hero/>
       <Instagram/>
