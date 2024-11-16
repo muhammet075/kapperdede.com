@@ -70,7 +70,9 @@
     }
 
     .winkel > div > section > h2{
-        font-size: 28px;  
+        font-size: 27px;
+        margin-bottom: 10px;
+        line-height: 30px;
     }
 
     .winkel > div > section > p{

@@ -46,9 +46,8 @@ function Footer() {
         <ul>
           <li><h2>Pagina's</h2></li>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/over-ons">Over ons</Link></li>
-          <li><Link href="/prijzen">Prijzen</Link></li>
           <li><Link href="/diensten">Diensten</Link></li>
+          <li><Link href="/prijzen">Prijzen</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
 

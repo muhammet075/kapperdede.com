@@ -1,28 +1,25 @@
 import { useEffect } from "react";
 import Head from "next/head";
-import Hero from "@/components/hero";
-import Instagram from "@/components/instagram";
-import Winkel from "@/components/winkel";
-import Reviews from "@/components/reviews";
+import Pagehero from "@/components/pagehero";
 
-export default function Home() {
+export default function Contact() {
   useEffect(() => {
   });
 
   return (
     <>
       <Head>
-          <title>Home</title>
+          <title>Contact</title>
           <meta name="description" content=""/>
           <meta name="og:description" content=""/>
           <meta name="keywords" content=""/>
           <meta property="og:url" content=""/>
           <meta property="og:title" content=""/>
       </Head>
-      <Hero/>
-      <Instagram/>
-      <Winkel/>
-      <Reviews/>
+
+      <Pagehero pagetitle="Contact"/>
+
+
     </>
   );
 }

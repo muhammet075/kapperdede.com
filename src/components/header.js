@@ -60,9 +60,9 @@ function Header() {
                 <nav className="hamburgercontainer displaynonemobile">
                     <ul>
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/">Diensten</Link></li>
-                        <li><Link href="/">Prijzen</Link></li>
-                        <li><Link href="/">Contact</Link></li>
+                        <li><Link href="/diensten">Diensten</Link></li>
+                        <li><Link href="/prijzen">Prijzen</Link></li>
+                        <li><Link href="/contact">Contact</Link></li>
                         <li><Link href="https://knipklok.nl/kapperszaak/kapperdede/afspraak" target="_blank">Afspraak</Link></li>
                     </ul>
                     <div onClick={closeHamburger}>
