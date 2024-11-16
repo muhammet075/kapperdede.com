@@ -1,8 +1,8 @@
 {
-  "name": "Next",
+  "name": "Kapper Dede",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Next.com/",
+  "homepage": "https://kapperdede.com/",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
