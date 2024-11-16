@@ -13,8 +13,6 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content="/logo.png" />
         <link href="/favico-32.png" rel="icon" sizes="32x32" type="image/png"/>
         <link href="/favico-16.png" rel="icon" sizes="16x16" type="image/png"/>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
       </Head>
       <Header/>
