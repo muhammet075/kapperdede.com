@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border-bottom: 5px solid var(--dedeKleur1);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
 .hero > div{
@@ -154,6 +156,22 @@
     transform: rotate(99deg);
 }
 
+.hero > div > div > section:nth-of-type(2) > ul:nth-of-type(2){
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.hero > div > div > section:nth-of-type(2) > ul:nth-of-type(2) > li {
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    text-align: left;
+}
+
 @media only screen and (max-width: 1215px) {
     .hero > div > div{
         padding: 0 15px;
@@ -187,7 +205,7 @@
 @media only screen and (max-width: 770px) {
     .hero{
         background-position: 0% 0%;
-        height: 800px;
+        height: 900px;
     }
 
     .hero > div > div{
@@ -202,9 +220,10 @@
     }
 
     .hero > div > div > section:nth-of-type(1) > h1{
-        font-size: 43px;
+        font-size: 30px;
         font-weight: 400;
         margin-bottom: 15px;
+        line-height: 35px;
     }
 
     .hero > div > div > section:nth-of-type(1) > p{
@@ -238,6 +257,6 @@
 
 @media only screen and (max-width: 373px) {
     .hero{
-        height: 850px;
+        height: 950px;
     }
 }

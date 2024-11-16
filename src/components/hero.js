@@ -4,6 +4,7 @@ import styles from "@/styles/hero.module.css";
 import googleReviewLogo from "@/assets/img/google-review-logo.svg";
 import knopklokReviewLogo from "@/assets/img/knipklok-review-logo.png";
 import ster from "@/assets/icons/goudenster.svg";
+import greenCheck from "@/assets/icons/greencheck.svg";
 import afspraakico from "@/assets/icons/afspraak-ico.svg";
 
 function Hero() {
@@ -13,8 +14,8 @@ function Hero() {
 
         <div>
             <section>
-                <h1>Welkom bij Kapper Dede</h1>
-                <p>Kapper Dede is al sinds 2003 dé specialist in herenknipbeurten in Krommenie en omstreken. Of je nu komt voor een strakke overloop fade of een klassiek kapsel, wij zorgen ervoor dat je er altijd scherp en fris uitziet. Maak je afspraak en kom langs!</p>
+                <h1>Welkom bij<br/> Kapper Dede</h1>
+                <p>Kapper Dede is al sinds 2003 dé specialist in herenknipbeurten in Krommenie en omstreken. Of je nu komt voor een strakke overloop fade of een klassiek kapsel, wij zorgen ervoor dat je er altijd scherp en fris uitziet!</p>
 
                 <div>
                     <Link href="https://knipklok.nl/kapperszaak/kapperdede#testimonial" target="_blank">
@@ -50,6 +51,12 @@ function Hero() {
                 <ul>
                     <li><Link href="https://knipklok.nl/kapperszaak/kapperdede/afspraak" target="_blank"><Image src={afspraakico} alt="Klikkende pijlx"/>Maak afspraak</Link></li>
                     <li><Link href="/prijzen">Prijzen</Link></li>
+                </ul>
+
+                <ul>
+                    <li><Image src={greenCheck} alt="Check icoon"/> Knippen & föhnen</li>
+                    <li><Image src={greenCheck} alt="Check icoon"/> Strakke overloop & fade</li>
+                    <li><Image src={greenCheck} alt="Check icoon"/> Baard trimmen & milimeteren</li>
                 </ul>
             </section>
         </div>

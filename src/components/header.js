@@ -8,6 +8,7 @@ import hamburger from "@/assets/icons/hamburger.svg";
 import close from "@/assets/icons/close.svg";
 import Instagram from "@/assets/icons/instagram2.svg";
 import Facebook from "@/assets/icons/facebook.svg";
+import Tiktok from "@/assets/icons/tiktok.svg";
 
 function Header() {
 
@@ -48,17 +49,6 @@ function Header() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     return(      
         <header className={styles.header} id="kapperdedeheader">  
             <div>
@@ -75,6 +65,7 @@ function Header() {
                     <ul>
                         <li><Link href="https://www.instagram.com/kapperdede/" target="_blank"><Image src={Instagram} alt="Instagram logo"/></Link></li>
                         <li><Link href="https://www.facebook.com/kapperdede/" target="_blank"><Image src={Facebook} alt="Facebook logo"/></Link></li>
+                        <li><Link href="https://www.tiktok.com/@kapperdede2?lang=nl-NL" target="_blank"><Image src={Tiktok} alt="TikTok logo"/></Link></li>
                     </ul>
                 </div>
             </div>
