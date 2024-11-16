@@ -126,7 +126,7 @@ export default function Contact() {
             <ul>
               <li><h2>Kapper Dede</h2></li>
               <li><b>E-Mail:</b> info@kapperdede.com</li>
-              <li><b>Telefoon:</b> 06 48 03 33 74</li>
+              <li><b>Telefoon:</b> 06 28 85 00 78</li>
               <li><b>KVK:</b> 72874511</li>
               <li><b>Adres:</b> Neptunuslaan 2A<br/> 1562XL Krommenie</li>
               <li>

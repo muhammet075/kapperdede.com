@@ -17,12 +17,13 @@
 }
 
 .winkel > div > section > h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .winkel > div > section > p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     margin-bottom: 25px;

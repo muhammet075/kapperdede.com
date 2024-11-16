@@ -15,7 +15,7 @@ function Winkel() {
                 <section>
                     <h2>De beste kapper in Krommenie</h2>
                     <p>Kapper Dede is sinds 2003 een vertrouwd adres in Krommenie, Assendelft, Wormerveer, Zaandam en omgeving voor iedereen die op zoek is naar een professioneel kapsel. Van strakke overlopen en fades tot klassieke en tijdloze stijlen, wij bieden een breed scala aan knip- en stylingopties. Altijd met oog voor detail, vakmanschap en de hoogste kwaliteit.</p>
-                    <Link href="/over-ons">Lees meer</Link>
+                    <Link href="/diensten">Bekijk onze diensten</Link>
                 </section>
 
                 <section>

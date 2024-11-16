@@ -38,6 +38,10 @@ button{
   cursor: pointer;
 }
 
+.nomargintop{
+  margin-top: 0px !important;
+}
+
 .displaynone{
   display: none !important;
 }
@@ -76,20 +80,100 @@ button{
   }
 }
 
-.prijzen{
+.prijzen, .privacybeleid, .kapper.assendelft, .kapper.wormer{
   background-image: url("/binnenkant1.png");
   background-position: 0 49%;
 }
 
-.diensten{
+.diensten, .cookiebeleid, .kapper.wormerveer, .kapper.zaandijk{
   background-image: url("/scheren1.jpg");
   background-position: 0 52%;
 }
 
-.contact{
+.contact, .algemene.voorwaarden, .kapper.krommenie, .kapper.zaandam{
   background-image: url("/winkel1.jpg");
   background-position: 0 50%;
 }
+
+
+
+.pagelayout > div{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pagelayout > div > div{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.pagelayout > div > div section p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.pagelayout > div > div section h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 35px 0 5px 0;
+}
+
+.pagelayout > div > div section h3{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 35px 0 0 0;
+}
+
+.pagelayout > div > div section img{
+  max-width: 500px;
+  height: auto;
+}
+
+.pagelayout > div > div section ul{
+  padding: 0 0 0 15px;
+}
+
+.pagelayout > div > div section ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 1215px) {
+  .pagelayout > div, .portfoliocontainer{
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .pagelayout{
+    margin: 50px auto;
+  }
+
+  .pagelayout > div > div{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .pagelayout > div > div section h2{
+    font-size: 18px;
+  }
+
+  .pagelayout > div > div section h3{
+    font-size: 15px;
+  }
+
+  .pagelayout > div > div section img{
+    max-width: 100%;
+  }
+}
+
 
 
 .lds-ring {

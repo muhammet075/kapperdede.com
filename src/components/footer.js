@@ -6,6 +6,7 @@ import Altinweb from "@/assets/logo/altinweb-logo.svg";
 import Instagram from "@/assets/icons/instagram2.svg";
 import Facebook from "@/assets/icons/facebook.svg";
 import WhatsApp from "@/assets/icons/whatsapp.svg";
+import knopklokReviewLogo from "@/assets/img/knipklok-logo.png";
 
 function Footer() {
   return (
@@ -31,7 +32,7 @@ function Footer() {
         <ul>
           <li><Link href="/"><Image src={Logo} alt="Logo van Kapper Dede"/></Link></li>
           <li><b>E-Mail:</b> <Link href="mailto:info@kapperdede.com">info@kapperdede.com</Link></li>
-          <li><b>Telefoon:</b> 06 48 03 33 74</li>
+          <li><b>Telefoon:</b> 06 28 85 00 78</li>
           <li><b>KVK:</b> 72874511</li>
           <li><b>Adres:</b> Neptunuslaan 2A<br/> 1562XL Krommenie</li>
           <li>
@@ -57,7 +58,7 @@ function Footer() {
           <li><Link href="/kapper-wormerveer">Kapper in Wormerveer</Link></li>
           <li><Link href="/kapper-assendelft">Kapper in Assendelft</Link></li>
           <li><Link href="/kapper-zaandam">Kapper in Zaandam</Link></li>
-          <li><Link href="/Kapper-wormer">Kapper in Wormer</Link></li>
+          <li><Link href="/kapper-wormer">Kapper in Wormer</Link></li>
           <li><Link href="/kapper-zaandijk">Kapper in Zaandijk</Link></li>
         </ul>
 
@@ -80,7 +81,7 @@ function Footer() {
         </div>
       </div>
 
-      <Link target="_blank" href="https://api.whatsapp.com/send/?phone=31628850078" rel="noopener" id="whatsappbtn"><Image src={WhatsApp} alt="WhatsApp icoon"/></Link>
+      <Link target="_blank" href="https://knipklok.nl/kapperszaak/kapperdede/afspraak"><Image src={knopklokReviewLogo} alt="Knipklok logo"/></Link>
       
     </footer>
   );
