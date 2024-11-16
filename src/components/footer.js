@@ -36,7 +36,7 @@ function Footer() {
           <li><b>Adres:</b> Neptunuslaan 2A<br/> 1562XL Krommenie</li>
           <li>
             <ul>
-              <li><Link href="https://www.instagram.com/stukadoors_ince/" target="_blank"><Image src={Instagram} alt="Instagram Logo"/></Link></li>
+              <li><Link href="https://www.instagram.com/kapperdede/" target="_blank"><Image src={Instagram} alt="Instagram Logo"/></Link></li>
               <li><Link href="https://www.facebook.com/kapperdede/?locale=nl_NL" target="_blank"><Image src={Facebook} alt="Facebook Logo"/></Link></li>
               <li><Link href="https://api.whatsapp.com/send/?phone=31628850078" target="_blank"><Image src={WhatsApp} alt="WhatsApp Logo"/></Link></li>
             </ul>
